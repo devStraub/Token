@@ -46,7 +46,7 @@ public class TokenService {
 		return true;
 	}
 	
-    private void dropToken() {
+    public void dropToken() {
         Calendar calendarDrop = Calendar.getInstance();
         calendarDrop.add(Calendar.MINUTE, -1);
 
